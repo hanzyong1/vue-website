@@ -1,18 +1,18 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import BlogsView from "../views/BlogsView.vue";
+import AddBlogView from "../views/AddBlogView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    component: HomeView,
+    component: BlogsView,
   },
   {
-    path: "/blogs",
-    component: BlogsView,
+    path: "/add-blog",
+    component: AddBlogView,
   },
 ];
 

@@ -1,15 +1,9 @@
 <template>
   <div id="header">
     <nav>
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Blogs</router-link>
       |
-      <router-link to="/blogs">Blogs</router-link>
+      <router-link to="/add-blog">Add a Blog</router-link>
     </nav>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style scoped></style>
