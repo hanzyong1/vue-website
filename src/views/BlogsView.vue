@@ -2,8 +2,8 @@
   <div id="show-blogs">
     <h1>Blog Articles</h1>
     <div v-for="blog in blogs" :key="blog.id" class="single-blog">
-      <h2>{{ blog.title }}</h2>
-      <article>{{ blog.body }}</article>
+      <h2>{{ blog.title | capitalize }}</h2>
+      <article>{{ blog.body | truncate }}</article>
     </div>
   </div>
 </template>
